@@ -1,0 +1,13 @@
+{
+    "name": "patient-api",
+    "version": "1.0.0",
+    "description": "REST API - Patient - Milestone 2",
+    "dependencies": {
+        "loadash": "^1.0.0",
+        "restify": "4.1.1",
+        "save": "2.3.0"
+    },
+    "author": "FathimaFathila",
+    "private": true,
+    "main": "index.js"
+}
