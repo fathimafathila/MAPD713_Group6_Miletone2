@@ -1,7 +1,7 @@
 // Group-6 Milestone 4
 
 var SERVER_NAME = 'patient-api'
-var PORT = 8000;
+var PORT = process.env.PORT || 8000;
 var HOST = '127.0.0.1';
 var getCounter = 0;
 var postCounter = 0;
