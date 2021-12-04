@@ -3,7 +3,6 @@
     "version": "1.0.0",
     "description": "REST API - Patient - Milestone 4",
     "dependencies": {
-        "chai": "^4.3.4",
         "chai-http": "^4.3.0",
         "ejs": "^3.1.5",
         "express": "^4.17.1",
@@ -13,7 +12,11 @@
         "save": "2.3.0"
     },
     "scripts": {
-        "start": "node index.js"
+        "start": "node index.js",
+        "test": "mocha --timeout 10000"  
+    },
+    "engines": {
+        "node": "14.x"
     },
     "author": "FathimaFathila",
     "private": true,
