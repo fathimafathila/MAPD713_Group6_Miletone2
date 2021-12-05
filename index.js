@@ -1,4 +1,14 @@
 // Group-6 Milestone 4
+/* Group6
+
+Author Name:
+ Akash
+ Fathima
+ Inderjit
+ Ridham 
+ Shrinal
+ Date: 5/12/2021
+ */
 
 var SERVER_NAME = 'patient-api'
 var PORT =  process.env.PORT || 8000;
